@@ -7,9 +7,9 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     if request:
         try:
-            url = "mongodb://lutericosmosdb:2lHz29iU8lLbdcFNtGKMce7w6aakffUvfzYhYfJEkpM9I3b8hJQMljkbEbz1TV3xn9dE0fwu9QICcq7PbsUoTw==@lutericosmosdb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@lutericosmosdb@"
+            url = "mongodb://lutericosmosdb:7g7oKdsU2ceMAS5AQ2RPQWSdGh0g4GTxUgcK0yEHWK4CGXGW6ie668vWmPLKfQKszNory3T8uRzPUBMMhgMUSQ==@lutericosmosdb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@lutericosmosdb@"
             client = pymongo.MongoClient(url)
-            database = client['luteridatabase']
+            database = client['luteridb']
             collection = database['advertisements']
 
             rec_id1 = collection.insert_one(eval(request))

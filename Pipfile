@@ -15,5 +15,6 @@ azure-cosmos = "*"
 pymongo = "==3.10.1"
 azure-cli-core = "*"
 feedgen = "*"
+"azure.functions" = "*"
 
 [dev-packages]
