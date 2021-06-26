@@ -3,6 +3,7 @@ import pymongo
 import json
 from bson.json_util import dumps
 from bson.objectid import ObjectId
+import os
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
 
@@ -10,7 +11,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     if id:
         try:
-            url = "mongodb://lutericosmosdb:LlX9w4qaDz03b4cjq23gJgfAWk63hherj98V8ah0XQYrKDbbJUDTJbar9ktjQlrumYbzYlub8GrGRG9B5bBR8w==@lutericosmosdb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@lutericosmosdb@"  # TODO: Update with appropriate MongoDB connection information
+            url = os.environ["luterimongdbconnectionstring"]  # TODO: Update with appropriate MongoDB connection information
             client = pymongo.MongoClient(url)
             database = client['luteridb']
             collection = database['posts']

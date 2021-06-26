@@ -12,7 +12,7 @@ flask-swagger-ui = "*"
 werkzeug = "===0.16.1"
 azure-functions = "*"
 azure-cosmos = "*"
-pymongo = "==3.10.1"
+pymongo = {extras = ["srv", "tls"], version = "*"}
 azure-cli-core = "*"
 feedgen = "*"
 "azure.functions" = "*"
