@@ -1,12 +1,12 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=luteristorageaccount;AccountKey=BoXd4flbhi4KWNFE5dhwoEV19UsxUbmlyliAMW2ca3xapOCxm6YepGkYDc/IF9ctcFoy0UXZ1EWyUQDyaLX0sQ==",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=luteristorageaccount;AccountKey=u0ldsQlCw28lvR+nUyVzvHqt4FFL7LQsnk0M2E9Va0eXAo5gwepadE+lHveHiBX5dusS8W9onICGqprvZ+WrDg==",
     "FUNCTIONS_WORKER_RUNTIME": "python",
     "EventHubConnectionString": "Endpoint=sb://udacityneighborly.servicebus.windows.net/;SharedAccessKeyName=allpolicy;SharedAccessKey=LOxUOkN13xN038T1VoSsmaTt4s7vq/+VCzduS5/nH9A=;EntityPath=testhub",
-    "APPINSIGHTS_INSTRUMENTATIONKEY": "a91c395e-0931-47ba-afd6-d44125b63677",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "0aff4905-5167-411c-988b-ad5a4ab2a94c",
     "FUNCTIONS_EXTENSION_VERSION": "~3",
-    "luterimongodbconnectionstring": "mongodb://lutericosmosdb:IcR2KCj0CXGR5gPExLzak2ELCX0PgBkGBiuvWDcuNyazf9QwoGr3bgxZAvfNuX11H2RBd8MiQMVRpLeICcU5zA==@lutericosmosdb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@lutericosmosdb@"
+    "luterimongodbconnectionstring": "mongodb://lutericosmosdb:RslknpGoy5O2KpwcbsTaGeoqLWXY2dUDP7fDMzqmFJmBxwlrBxv6tpOae0d4pKnHu6S0IdKp2ElpFiDsHThhFQ==@lutericosmosdb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@lutericosmosdb@"
   },
   "ConnectionStrings": {}
 }

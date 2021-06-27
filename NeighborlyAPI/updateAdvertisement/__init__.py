@@ -10,7 +10,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     if request:
         try:
-            url = os.environ["luterimongdbconnectionstring"] 
+            url = "mongodb://lutericosmosdb:RslknpGoy5O2KpwcbsTaGeoqLWXY2dUDP7fDMzqmFJmBxwlrBxv6tpOae0d4pKnHu6S0IdKp2ElpFiDsHThhFQ==@lutericosmosdb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@lutericosmosdb@"
             client = pymongo.MongoClient(url)
             database = client['luteridb']
             collection = database['advertisements']
