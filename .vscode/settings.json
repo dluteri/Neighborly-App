@@ -6,5 +6,5 @@
     "azureFunctions.projectRuntime": "~3",
     "debug.internalConsoleOptions": "neverOpen",
     "appService.deploySubpath": ".",
-    "appService.defaultWebAppToDeploy": "/subscriptions/67975bf2-bd7c-47cf-90ef-852c86e090ed/resourceGroups/learn-c49937b0-5f83-40f3-8753-2862590746c6/providers/Microsoft.Web/sites/luteriwebapp"
+    "appService.defaultWebAppToDeploy": ""
 }
