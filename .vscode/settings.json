@@ -6,5 +6,6 @@
     "azureFunctions.projectRuntime": "~3",
     "debug.internalConsoleOptions": "neverOpen",
     "appService.deploySubpath": ".",
-    "appService.defaultWebAppToDeploy": ""
+    "python.pythonPath": "C:\\Users\\Student\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "appService.defaultWebAppToDeploy": "/subscriptions/2445c4d8-f46a-44fd-bf01-c4bed0563d3a/resourceGroups/learn-083421ce-6661-49a2-ad8a-48aff2cb5580/providers/Microsoft.Web/sites/luteriwebapp"
 }
