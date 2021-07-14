@@ -7,5 +7,5 @@
     "debug.internalConsoleOptions": "neverOpen",
     "appService.deploySubpath": ".",
     "python.pythonPath": "C:\\Users\\Student\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
-    "appService.defaultWebAppToDeploy": "/subscriptions/2445c4d8-f46a-44fd-bf01-c4bed0563d3a/resourceGroups/learn-083421ce-6661-49a2-ad8a-48aff2cb5580/providers/Microsoft.Web/sites/luteriwebapp"
+    "appService.defaultWebAppToDeploy": "/subscriptions/174b04ed-6fca-4a92-82e1-2b0027feffa0/resourceGroups/learn-60e700ef-0265-45cf-a10d-93028ccb4630/providers/Microsoft.Web/sites/luteriwebapp"
 }

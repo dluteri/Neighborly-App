@@ -15,7 +15,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     
     if id:
         try:
-            url = "mongodb://lutericosmosdb1:C0JmDhDGvQ7TJqshlGgFODtQfHVpIBQzdn6UhN9qYPX8GQlVAoXZL0Hz2SzJL5AKRvZHHYfy09m0kothz45Vfw==@lutericosmosdb1.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@lutericosmosdb1@"            
+            url = "mongodb://lutericosmosdb1:EMYkj3s49LZ1H5tZOVXD0gYUNDOeixILpkJZ4wYQgeVg6GUnE3u5ZkGQ4YPqRnPuHZqbEgtAdoUURw0ys0p5GQ==@lutericosmosdb1.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@lutericosmosdb1@"            
             client = pymongo.MongoClient(url)
             database = client['luteridb']
             collection = database['advertisements']

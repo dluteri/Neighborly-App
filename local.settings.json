@@ -4,7 +4,7 @@
     "FUNCTIONS_WORKER_RUNTIME": "python",
     "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=luteristorageaccount;AccountKey=nCIkjBVwPw7l/IsPUncsE71CgFFSgsWRP4LwwSPB3gOqs/cmG9yhtE5uQnZIZUTd9C2/LBxljoP9f4K1Kuy8Mw==",
     "FUNCTIONS_EXTENSION_VERSION": "~3",
-    "luterimongodbconnectionstring": "mongodb://lutericosmosdb1:C0JmDhDGvQ7TJqshlGgFODtQfHVpIBQzdn6UhN9qYPX8GQlVAoXZL0Hz2SzJL5AKRvZHHYfy09m0kothz45Vfw==@lutericosmosdb1.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@lutericosmosdb1@",
+    "luterimongodbconnectionstring": "https://luterifunctionapp.azurewebsites.net/api/getAdvertisements?",
     "APPINSIGHTS_INSTRUMENTATIONKEY": "21ac696e-15f3-4790-a483-c1714a5e041f"
   },
   "ConnectionStrings": {}

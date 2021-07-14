@@ -7,38 +7,38 @@ import requests
 import json
 # from feedgen.feed import FeedGenerator
 from flask import make_response
-# from urllib.parse import urljoin
-# from werkzeug.contrib.atom import AtomFeed
+from urllib.parse import urljoin
+from werkzeug.contrib.atom import AtomFeed
 
 app = Flask(__name__)
 Bootstrap(app)
 
 
 
-# def get_abs_url(url):
-#  #   """ Returns absolute url by joining post url with base url """
-#     return urljoin(request.url_root, url)
+def get_abs_url(url):
+    """ Returns absolute url by joining post url with base url """
+    return urljoin(request.url_root, url)
 
 
-# @app.route('/feeds/')
-# def feeds():
-#     feed = AtomFeed(title='All Advertisements feed',
-#                     feed_url=request.url, url=request.url_root)
+@app.route('/feeds/')
+def feeds():
+    feed = AtomFeed(title='All Advertisements feed',
+                    feed_url=request.url, url=request.url_root)
 
-#     response = requests.get(settings.API_URL + '/getAdvertisements')
-#     posts = response.json()
+    response = requests.get(settings.API_URL + '/getAdvertisements')
+    posts = response.json()
 
-#     for key, value in posts.items():
-#         print("key,value: " + key + ", " + value)
+    for key, value in posts.items():
+        print("key,value: " + key + ", " + value)
 
-#     #     feed.add(post.title,
-#     #              content_type='html',
-#     #              author= post.author_name,
-#     #              url=get_abs_url(post.url),
-#     #              updated=post.mod_date,
-#     #              published=post.created_date)
+    #     feed.add(post.title,
+    #              content_type='html',
+    #              author= post.author_name,
+    #              url=get_abs_url(post.url),
+    #              updated=post.mod_date,
+    #              published=post.created_date)
 
-#     # return feed.get_response()
+    # return feed.get_response()
 
 
 # @app.route('/rss')
